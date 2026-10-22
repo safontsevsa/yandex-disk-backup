@@ -1,0 +1,16 @@
+# Whitelist: only source code and docs are tracked.
+# State, logs, inventories (personal file lists), journals and locks stay local.
+/*
+!/.gitignore
+!/*.py
+!/README.txt
+!/watch.command
+!/launch-watch.applescript
+!/parallel-scan-update/
+/parallel-scan-update/*
+!/parallel-scan-update/*.py
+!/photounlim/
+/photounlim/*
+!/photounlim/*.py
+__pycache__/
+*.pyc
